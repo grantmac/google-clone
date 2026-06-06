@@ -15,8 +15,8 @@ export default function Footer() {
       <div className="border-b border-[#dadce0] px-[30px] py-[15px] text-[15px]">
         United Kingdom
       </div>
-      <div className="flex flex-col items-center justify-between gap-4 px-[30px] py-[15px] text-[14px] lg:flex-row">
-        <div className="flex flex-wrap justify-center gap-6 lg:justify-start">
+      <div className="footer-links text-[14px]">
+        <div className="footer-left flex flex-wrap justify-center gap-6 md:justify-start">
           <a href="#" className="hover:underline">
             Advertising
           </a>
@@ -27,11 +27,11 @@ export default function Footer() {
             How Search works
           </a>
         </div>
-        <a href="#" className="flex items-center gap-2 hover:underline">
+        <a href="#" className="footer-center flex items-center justify-center gap-2 hover:underline">
           <LeafIcon />
           <span>Applying AI towards science and the environment</span>
         </a>
-        <div className="flex flex-wrap justify-center gap-6 lg:justify-end">
+        <div className="footer-right flex flex-wrap justify-center gap-6 md:justify-end">
           <a href="#" className="hover:underline">
             Privacy
           </a>
