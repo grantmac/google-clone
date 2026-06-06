@@ -1,3 +1,8 @@
+/* Tailwind utilities only — preflight is intentionally omitted so Google's
+   snapshot styles in google-styles.css stay pixel-identical. */
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
 html,
 body,
 #root {
@@ -7,4 +12,8 @@ body,
 
 #root {
   display: block;
+}
+
+/* Put Superhands-specific Tailwind overrides/components here. */
+@layer components {
 }

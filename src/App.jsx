@@ -6,10 +6,12 @@ export default function App() {
   }
 
   return (
-    <div
-      id="google-clone-root"
-      suppressHydrationWarning
-      dangerouslySetInnerHTML={{ __html: bodyHtml }}
-    />
+    <div id="superhands-app" className="min-h-full">
+      <div
+        id="google-clone-root"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: bodyHtml }}
+      />
+    </div>
   );
 }
